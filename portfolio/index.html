@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Patel | Computer Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #030303; color: #fafafa; font-family: 'Space Grotesk', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(15px); }
+        .text-gradient { background: linear-gradient(to right, #60a5fa, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .tech-badge { background: rgba(59, 130, 246, 0.1); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); padding: 2px 8px; border-radius: 99px; font-size: 10px; font-weight: bold; text-transform: uppercase; }
+    </style>
+</head>
+<body class="px-6">
+
+    <nav class="fixed top-0 left-0 w-full z-50 py-6 px-10 flex justify-between items-center glass">
+        <div class="text-xl font-bold tracking-widest text-gradient italic">HARSH.PATEL</div>
+        <div class="hidden md:flex gap-10 text-xs font-semibold tracking-widest uppercase">
+            <a href="#about" class="hover:text-blue-400">Home</a>
+            <a href="#credentials" class="hover:text-blue-400">Credentials</a>
+            <a href="#projects" class="hover:text-blue-400">Work</a>
+            <a href="mailto:harshpatel160203@gmail.com" class="text-blue-400 border border-blue-400 px-5 py-2 rounded-full">Contact</a>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-52 pb-32 max-w-5xl mx-auto">
+        <div class="inline-block px-4 py-1 border border-blue-500/30 rounded-full text-blue-400 text-xs mb-6 uppercase tracking-widest font-bold">
+            Available for Global Opportunities
+        </div>
+        <h1 class="text-7xl md:text-9xl font-bold mb-10 tracking-tighter text-white">Systems <br><span class="text-gradient">Architect.</span></h1>
+        <p class="text-xl md:text-2xl text-gray-400 max-w-3xl leading-relaxed">
+            Computer Engineer with a <span class="text-white font-semibold">7.99 CGPA</span>[cite: 70]. Specializing in high-performance web systems, decentralized blockchain tech, and data analytics.
+        </p>
+    </section>
+
+    <section id="credentials" class="py-20 max-w-5xl mx-auto">
+        <h2 class="text-xs uppercase tracking-widest text-blue-500 mb-12 font-bold italic">// Global Certifications</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="glass p-6 rounded-2xl">
+                <p class="text-[10px] text-blue-400 mb-2 font-bold uppercase tracking-widest">Princeton University</p>
+                <h4 class="font-bold">Analysis of Algorithms</h4> [cite: 124]
+            </div>
+            <div class="glass p-6 rounded-2xl">
+                <p class="text-[10px] text-blue-400 mb-2 font-bold uppercase tracking-widest">IBM</p>
+                <h4 class="font-bold">Machine Learning with Python</h4> [cite: 114]
+            </div>
+            <div class="glass p-6 rounded-2xl">
+                <p class="text-[10px] text-blue-400 mb-2 font-bold uppercase tracking-widest">UC San Diego</p>
+                <h4 class="font-bold">Core Java Specialization</h4> [cite: 123]
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 max-w-5xl mx-auto border-t border-white/5">
+        <h2 class="text-xs uppercase tracking-widest text-blue-500 mb-12 font-bold italic">// Featured Work</h2>
+        <div id="projects-grid" class="grid md:grid-cols-2 gap-8">
+            <div class="glass p-10 rounded-3xl animate-pulse">
+                <div class="h-6 w-32 bg-gray-700 rounded mb-4"></div>
+                <div class="h-4 w-full bg-gray-800 rounded mb-2"></div>
+                <div class="h-4 w-2/3 bg-gray-800 rounded"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 max-w-5xl mx-auto border-t border-white/5">
+        <div class="grid md:grid-cols-2 gap-20">
+            <div>
+                <h2 class="text-xs uppercase tracking-widest text-blue-500 mb-10 font-bold italic">// Professional</h2>
+                <div class="mb-10">
+                    <h3 class="text-xl font-bold italic">Venom Technologies</h3>
+                    <p class="text-sm text-gray-500 mb-4 tracking-widest uppercase">Web Developer Intern [cite: 87]</p>
+                    <p class="text-gray-400 text-sm leading-relaxed">Engineered scalable e-commerce platforms using React.js and Firebase[cite: 88]. Optimized architecture with role-based access control[cite: 89].</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-xs uppercase tracking-widest text-blue-500 mb-10 font-bold italic">// Leadership</h2>
+                <div class="mb-10">
+                    <h3 class="text-xl font-bold italic">IEEE MBIT Student Branch</h3>
+                    <p class="text-sm text-gray-500 mb-4 tracking-widest uppercase italic">Technical Event Lead [cite: 108]</p>
+                    <p class="text-gray-400 text-sm leading-relaxed">Orchestrated 5+ technical workshops and managed cross-functional teams for large-scale campus events[cite: 109].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center border-t border-white/5">
+        <p class="text-[10px] uppercase tracking-[0.3em] opacity-30 italic">Harsh Patel — Gujarat to the World — 2026</p>
+    </footer>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getFirestore, collection, getDocs, query, orderBy } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+        // YOUR INTEGRATED CONFIG
+        const firebaseConfig = {
+            apiKey: "AIzaSyDfFIwjPA4TRSuKYG3wHd8rw14AHT6PWI8",
+            authDomain: "portfolio-c13df.firebaseapp.com",
+            projectId: "portfolio-c13df",
+            storageBucket: "portfolio-c13df.firebasestorage.app",
+            messagingSenderId: "1079028965333",
+            appId: "1:1079028965333:web:55f2c28011d925106e675c",
+            measurementId: "G-41J0KH081M"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        async function loadProjects() {
+            const projectGrid = document.getElementById("projects-grid");
+            try {
+                const q = query(collection(db, "projects"), orderBy("order", "asc"));
+                const querySnapshot = await getDocs(q);
+                projectGrid.innerHTML = ""; 
+                
+                querySnapshot.forEach((doc) => {
+                    const data = doc.data();
+                    projectGrid.innerHTML += `
+                        <div class="glass p-10 rounded-3xl border border-white/5 hover:border-blue-500/50 transition-all duration-500 group">
+                            <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-400 tracking-tight">${data.title}</h3>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-8">${data.description}</p>
+                            <div class="flex flex-wrap gap-2">
+                                ${data.tags.map(tag => `<span class="tech-badge tracking-widest italic">${tag}</span>`).join('')}
+                            </div>
+                        </div>
+                    `;
+                });
+            } catch (error) {
+                console.error("Connection Error:", error);
+                projectGrid.innerHTML = `<p class="text-red-400 font-mono text-xs italic">System: Please verify Firestore collection 'projects' and Test Mode settings.</p>`;
+            }
+        }
+        loadProjects();
+    </script>
+</body>
+</html>
